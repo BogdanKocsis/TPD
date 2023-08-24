@@ -1,0 +1,3 @@
+#GlassFish 3
+#Thu Aug 24 12:16:07 EEST 2023
+org.eclipse.jst.jee.server\:Ear=D\:\\TPD\\glassfish6\\glassfish\\domains\\domain1\\eclipseApps\\Ear

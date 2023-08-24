@@ -1,0 +1,64 @@
+[2023-08-22T13:09:49.229+0300] [] [INFO] [NCLS-GFLAUNCHER-00005] [jakarta.enterprise.launcher] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1692698989229] [levelValue: 800] [[
+  JVM invocation command line:
+C:\Program Files (x86)\Java\jdk-13.0.1\bin\java.exe
+-cp
+D:/TPD/glassfish6/glassfish/modules/glassfish.jar
+-XX:+UnlockDiagnosticVMOptions
+-XX:NewRatio=2
+-XX:MaxPermSize=192m
+-Xmx512m
+-javaagent:D:/TPD/glassfish6/glassfish/lib/monitor/flashlight-agent.jar
+-client
+-Djavax.xml.accessExternalSchema=all
+-Djavax.net.ssl.trustStore=D:\TPD\glassfish6\glassfish\domains\domain2/config/cacerts.jks
+-Djdk.tls.rejectClientInitiatedRenegotiation=true
+-Djdk.corba.allowOutputStreamSubclass=true
+-Dfelix.fileinstall.dir=D:\TPD\glassfish6\glassfish/modules/autostart/
+-Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall
+-Dcom.sun.aas.installRoot=D:\TPD\glassfish6\glassfish
+-Dfelix.fileinstall.poll=5000
+-Djava.endorsed.dirs=D:\TPD\glassfish6\glassfish/modules/endorsed;D:\TPD\glassfish6\glassfish/lib/endorsed
+-Djava.security.policy=D:\TPD\glassfish6\glassfish\domains\domain2/config/server.policy
+-Dosgi.shell.telnet.maxconn=1
+-Dfelix.fileinstall.bundles.startTransient=true
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Dfelix.fileinstall.log.level=2
+-Djavax.net.ssl.keyStore=D:\TPD\glassfish6\glassfish\domains\domain2/config/keystore.jks
+-Djava.security.auth.login.config=D:\TPD\glassfish6\glassfish\domains\domain2/config/login.conf
+-Dfelix.fileinstall.disableConfigSave=false
+-Dfelix.fileinstall.bundles.new.start=true
+-Dcom.sun.aas.instanceRoot=D:\TPD\glassfish6\glassfish\domains\domain2
+-Dosgi.shell.telnet.port=8066
+-Dgosh.args=--nointeractive
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Dosgi.shell.telnet.ip=127.0.0.1
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Djava.awt.headless=true
+-Dcom.ctc.wstx.returnNullForDefaultNamespace=true
+-Djava.ext.dirs=C:\Program Files (x86)\Java\jdk-13.0.1/lib/ext;C:\Program Files (x86)\Java\jdk-13.0.1/jre/lib/ext;D:\TPD\glassfish6\glassfish\domains\domain2/lib/ext
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Djava.library.path=D:/TPD/glassfish6/glassfish/lib;C:/Program Files/Java/jdk-18.0.1.1/bin;C:/Windows/Sun/Java/bin;C:/Windows/System32;C:/Windows;C:/ProgramData/Oracle/Java/javapath;C:/Program Files/Common Files/Oracle/Java/javapath;C:/Program Files/Zulu/zulu-8/bin;C:/Program Files (x86)/Common Files/Oracle/Java/javapath;C:/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0;C:/Windows/System32/OpenSSH;C:/Program Files/Intel/WiFi/bin;C:/Program Files/Common Files/Intel/WirelessCommon;C:/Program Files/dotnet;C:/Program Files/Git/cmd;C:/ProgramData/chocolatey/bin;C:/Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/bin;C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn;C:/Program Files/Azure Data Studio/bin;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn;C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn;C:/Program Files/Microsoft SQL Server/150/Tools/Binn;C:/Program Files/Microsoft SQL Server/150/DTS/Binn;C:/Program Files/Amazon/AWSCLIV2;C:/Users/Bogdan/AppData/Local/Programs/Python/Python39/Scripts;C:/Users/Bogdan/AppData/Local/Programs/Python/Python39;C:/Program Files/gnuplot/bin;C:/Users/Bogdan/AppData/Local/Microsoft/WindowsApps;C:/Users/Bogdan/.dotnet/tools;C:/Users/Bogdan/AppData/Local/Programs/Microsoft VS Code/bin;D:/MiKTeX/miktex/bin/x64;C:/Program Files/Java/jdk1.8.0_161/bin;D:/TPD/glassfish6/glassfish/bin
+com.sun.enterprise.glassfish.bootstrap.ASMain
+-upgrade
+false
+-domaindir
+D:/TPD/glassfish6/glassfish/domains/domain2
+-read-stdin
+true
+-asadmin-args
+--host,,,localhost,,,--port,,,4848,,,--secure=false,,,--terse=false,,,--echo=false,,,--interactive=true,,,start-domain,,,--verbose=false,,,--watchdog=false,,,--debug=false,,,--domaindir,,,D:\TPD\glassfish6\glassfish\domains,,,domain2
+-domainname
+domain2
+-instancename
+server
+-type
+DAS
+-verbose
+false
+-asadmin-classpath
+D:/TPD/glassfish6/glassfish/lib/client/appserver-cli.jar
+-debug
+false
+-asadmin-classname
+com.sun.enterprise.admin.cli.AdminMain]]
+

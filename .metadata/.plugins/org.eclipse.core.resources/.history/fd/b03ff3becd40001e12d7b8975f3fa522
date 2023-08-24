@@ -1,0 +1,20 @@
+package com.example;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class StatelessEjb
+ */
+@Stateless
+@LocalBean
+public class StatelessEjb implements StatelessEjbRemote {
+
+    /**
+     * Default constructor. 
+     */
+    public StatelessEjb() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

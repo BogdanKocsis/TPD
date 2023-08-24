@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="EjbClient">
+        <wb-resource deploy-path="/" source-path="/ejbModule"/>
+        <dependent-module archiveName="mysql-connector-j-8.0.33.jar" deploy-path="/" handle="module:/classpath/lib/D:/TPD/jars/mysql-connector-j-8.0.33.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

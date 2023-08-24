@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="Ear">
+                
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+                
+        <dependent-module archiveName="Ejb.jar" deploy-path="/" handle="module:/resource/Ejb/Ejb">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="EjbClient.jar" deploy-path="/" handle="module:/resource/EjbClient/EjbClient">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="mysql-connector-j-8.0.33.jar" deploy-path="/lib" handle="module:/classpath/lib/D:/TPD/jars/mysql-connector-j-8.0.33.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="GuiClient.war" deploy-path="/" handle="module:/resource/GuiClient/GuiClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+            
+    </wb-module>
+    
+</project-modules>

@@ -1,0 +1,265 @@
+[#|2023-08-21T14:22:29.770+0300|INFO|glassfish 6.2|jakarta.enterprise.logging|_ThreadID=31;_ThreadName=RunLevelControllerThread-1692616949546;_TimeMillis=1692616949770;_LevelValue=800;_MessageID=NCLS-LOGGING-00009;|Running GlassFish Version: Eclipse GlassFish  6.2.5  (build 6.x-b66-g0159b68 2022-02-12T17:39:59+0000)|#]
+
+[#|2023-08-21T14:22:29.790+0300|INFO|glassfish 6.2|jakarta.enterprise.logging|_ThreadID=31;_ThreadName=RunLevelControllerThread-1692616949546;_TimeMillis=1692616949790;_LevelValue=800;_MessageID=NCLS-LOGGING-00010;|Server log file is using Formatter class: com.sun.enterprise.server.logging.UniformLogFormatter|#]
+
+[#|2023-08-21T14:22:29.968+0300|INFO|glassfish 6.2|jakarta.enterprise.system.core.security|_ThreadID=33;_ThreadName=RunLevelControllerThread-1692616949556;_TimeMillis=1692616949968;_LevelValue=800;_MessageID=NCLS-SECURITY-01115;|Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+
+[#|2023-08-21T14:22:29.970+0300|INFO|glassfish 6.2|jakarta.enterprise.system.core.security|_ThreadID=33;_ThreadName=RunLevelControllerThread-1692616949556;_TimeMillis=1692616949970;_LevelValue=800;_MessageID=NCLS-SECURITY-01115;|Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.|#]
+
+[#|2023-08-21T14:22:29.980+0300|INFO|glassfish 6.2|jakarta.enterprise.system.core.security|_ThreadID=33;_ThreadName=RunLevelControllerThread-1692616949556;_TimeMillis=1692616949980;_LevelValue=800;_MessageID=NCLS-SECURITY-01115;|Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.|#]
+
+[#|2023-08-21T14:22:30.118+0300|INFO|glassfish 6.2|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=31;_ThreadName=RunLevelControllerThread-1692616949546;_TimeMillis=1692616950118;_LevelValue=800;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
+
+[#|2023-08-21T14:22:30.232+0300|INFO|glassfish 6.2|jakarta.enterprise.security.services|_ThreadID=31;_ThreadName=RunLevelControllerThread-1692616949546;_TimeMillis=1692616950232;_LevelValue=800;_MessageID=SEC-SVCS-00100;|Authorization Service has successfully initialized.|#]
+
+[#|2023-08-21T14:22:30.580+0300|INFO|glassfish 6.2|jakarta.enterprise.system.core|_ThreadID=32;_ThreadName=RunLevelControllerThread-1692616949556;_TimeMillis=1692616950580;_LevelValue=800;_MessageID=NCLS-CORE-00087;|Grizzly Framework 3.0.1 started in: 121ms - bound to [/0.0.0.0:3700]|#]
+
+[#|2023-08-21T14:22:32.990+0300|INFO|glassfish 6.2|jakarta.enterprise.system.tools.deployment.common|_ThreadID=30;_ThreadName=RunLevelControllerThread-1692616949545;_TimeMillis=1692616952990;_LevelValue=800;|visiting unvisited references|#]
+
+[#|2023-08-21T14:22:33.551+0300|SEVERE|glassfish 6.2|jakarta.enterprise.system.tools.deployment.common|_ThreadID=30;_ThreadName=RunLevelControllerThread-1692616949545;_TimeMillis=1692616953551;_LevelValue=1000;|Exception while visiting javax.lang.model.element.Modifier|#]
+
+[#|2023-08-21T14:22:34.110+0300|SEVERE|glassfish 6.2|jakarta.enterprise.system.tools.deployment.dol|_ThreadID=30;_ThreadName=RunLevelControllerThread-1692616949545;_TimeMillis=1692616954110;_LevelValue=1000;|Requested schema is not found in local repository, please ensure that there are no typos in the XML namespace declaration.
+org.xml.sax.SAXException: Requested schema is not found in local repository, please ensure that there are no typos in the XML namespace declaration.
+	at com.sun.enterprise.deployment.node.SaxParserHandler.resolveEntity(SaxParserHandler.java:227)
+	at java.xml/com.sun.org.apache.xerces.internal.util.EntityResolverWrapper.resolveEntity(EntityResolverWrapper.java:111)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.resolveEntity(XMLEntityManager.java:1134)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.resolveDocument(XMLSchemaLoader.java:663)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.findSchemaGrammar(XMLSchemaValidator.java:2695)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:2070)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:830)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3079)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at com.sun.enterprise.deployment.io.DeploymentDescriptorFile.read(DeploymentDescriptorFile.java:286)
+	at com.sun.enterprise.deployment.archivist.ExtensionsArchivist.open(ExtensionsArchivist.java:155)
+	at com.sun.enterprise.deployment.archivist.PersistenceArchivist.readPersistenceDeploymentDescriptor(PersistenceArchivist.java:120)
+	at com.sun.enterprise.deployment.archivist.PersistenceArchivist.open(PersistenceArchivist.java:79)
+	at com.sun.enterprise.deployment.archivist.Archivist.readRestDeploymentDescriptors(Archivist.java:381)
+	at com.sun.enterprise.deployment.archivist.Archivist.readDeploymentDescriptors(Archivist.java:372)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:247)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:256)
+	at com.sun.enterprise.deployment.archivist.ApplicationArchivist.readModulesDescriptors(ApplicationArchivist.java:599)
+	at com.sun.enterprise.deployment.archivist.ApplicationArchivist.openWith(ApplicationArchivist.java:214)
+	at com.sun.enterprise.deployment.archivist.ApplicationFactory.openWith(ApplicationFactory.java:207)
+	at org.glassfish.javaee.core.deployment.DolProvider.processDOL(DolProvider.java:172)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:206)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:72)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.loadDeployer(ApplicationLifecycle.java:885)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.setupContainerInfos(ApplicationLifecycle.java:825)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:358)
+	at com.sun.enterprise.v3.server.ApplicationLoaderService.processApplication(ApplicationLoaderService.java:382)
+	at com.sun.enterprise.v3.server.ApplicationLoaderService.postConstruct(ApplicationLoaderService.java:219)
+	at org.jvnet.hk2.internal.ClazzCreator.postConstructMe(ClazzCreator.java:303)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:351)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:466)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:281)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:65)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2103)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:67)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.oneJob(CurrentTaskFuture.java:1213)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.run(CurrentTaskFuture.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+|#]
+
+[#|2023-08-21T14:22:34.110+0300|SEVERE|glassfish 6.2|jakarta.enterprise.system.tools.deployment.dol|_ThreadID=30;_ThreadName=RunLevelControllerThread-1692616949545;_TimeMillis=1692616954110;_LevelValue=1000;|enterprise.deployment.backend.saxParserError|#]
+
+[#|2023-08-21T14:22:34.110+0300|SEVERE|glassfish 6.2|jakarta.enterprise.system.tools.deployment.dol|_ThreadID=30;_ThreadName=RunLevelControllerThread-1692616949545;_TimeMillis=1692616954110;_LevelValue=1000;|Error occurred
+org.xml.sax.SAXException: Requested schema is not found in local repository, please ensure that there are no typos in the XML namespace declaration.
+	at com.sun.enterprise.deployment.node.SaxParserHandler.resolveEntity(SaxParserHandler.java:227)
+	at java.xml/com.sun.org.apache.xerces.internal.util.EntityResolverWrapper.resolveEntity(EntityResolverWrapper.java:111)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.resolveEntity(XMLEntityManager.java:1134)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.resolveDocument(XMLSchemaLoader.java:663)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.findSchemaGrammar(XMLSchemaValidator.java:2695)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:2070)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:830)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3079)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at com.sun.enterprise.deployment.io.DeploymentDescriptorFile.read(DeploymentDescriptorFile.java:286)
+	at com.sun.enterprise.deployment.archivist.ExtensionsArchivist.open(ExtensionsArchivist.java:155)
+	at com.sun.enterprise.deployment.archivist.PersistenceArchivist.readPersistenceDeploymentDescriptor(PersistenceArchivist.java:120)
+	at com.sun.enterprise.deployment.archivist.PersistenceArchivist.open(PersistenceArchivist.java:79)
+	at com.sun.enterprise.deployment.archivist.Archivist.readRestDeploymentDescriptors(Archivist.java:381)
+	at com.sun.enterprise.deployment.archivist.Archivist.readDeploymentDescriptors(Archivist.java:372)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:247)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:256)
+	at com.sun.enterprise.deployment.archivist.ApplicationArchivist.readModulesDescriptors(ApplicationArchivist.java:599)
+	at com.sun.enterprise.deployment.archivist.ApplicationArchivist.openWith(ApplicationArchivist.java:214)
+	at com.sun.enterprise.deployment.archivist.ApplicationFactory.openWith(ApplicationFactory.java:207)
+	at org.glassfish.javaee.core.deployment.DolProvider.processDOL(DolProvider.java:172)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:206)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:72)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.loadDeployer(ApplicationLifecycle.java:885)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.setupContainerInfos(ApplicationLifecycle.java:825)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:358)
+	at com.sun.enterprise.v3.server.ApplicationLoaderService.processApplication(ApplicationLoaderService.java:382)
+	at com.sun.enterprise.v3.server.ApplicationLoaderService.postConstruct(ApplicationLoaderService.java:219)
+	at org.jvnet.hk2.internal.ClazzCreator.postConstructMe(ClazzCreator.java:303)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:351)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:466)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:281)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:65)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2103)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:67)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.oneJob(CurrentTaskFuture.java:1213)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.run(CurrentTaskFuture.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+|#]
+
+[#|2023-08-21T14:22:34.110+0300|SEVERE|glassfish 6.2|jakarta.enterprise.system.core|_ThreadID=30;_ThreadName=RunLevelControllerThread-1692616949545;_TimeMillis=1692616954110;_LevelValue=1000;|Exception while deploying the app [Ear]|#]
+
+[#|2023-08-21T14:22:34.111+0300|SEVERE|glassfish 6.2|jakarta.enterprise.system.core|_ThreadID=30;_ThreadName=RunLevelControllerThread-1692616949545;_TimeMillis=1692616954111;_LevelValue=1000;_MessageID=NCLS-CORE-00026;|Exception during lifecycle processing
+java.io.IOException: org.xml.sax.SAXException: Requested schema is not found in local repository, please ensure that there are no typos in the XML namespace declaration.
+	at org.glassfish.javaee.core.deployment.DolProvider.processDOL(DolProvider.java:175)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:206)
+	at org.glassfish.javaee.core.deployment.DolProvider.load(DolProvider.java:72)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.loadDeployer(ApplicationLifecycle.java:885)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.setupContainerInfos(ApplicationLifecycle.java:825)
+	at com.sun.enterprise.v3.server.ApplicationLifecycle.deploy(ApplicationLifecycle.java:358)
+	at com.sun.enterprise.v3.server.ApplicationLoaderService.processApplication(ApplicationLoaderService.java:382)
+	at com.sun.enterprise.v3.server.ApplicationLoaderService.postConstruct(ApplicationLoaderService.java:219)
+	at org.jvnet.hk2.internal.ClazzCreator.postConstructMe(ClazzCreator.java:303)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:351)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:466)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:281)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:65)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2103)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:67)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.oneJob(CurrentTaskFuture.java:1213)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.run(CurrentTaskFuture.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.xml.sax.SAXException: Requested schema is not found in local repository, please ensure that there are no typos in the XML namespace declaration.
+	at com.sun.enterprise.deployment.node.SaxParserHandler.resolveEntity(SaxParserHandler.java:227)
+	at java.xml/com.sun.org.apache.xerces.internal.util.EntityResolverWrapper.resolveEntity(EntityResolverWrapper.java:111)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.resolveEntity(XMLEntityManager.java:1134)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaLoader.resolveDocument(XMLSchemaLoader.java:663)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.findSchemaGrammar(XMLSchemaValidator.java:2695)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(XMLSchemaValidator.java:2070)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(XMLSchemaValidator.java:830)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3079)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at com.sun.enterprise.deployment.io.DeploymentDescriptorFile.read(DeploymentDescriptorFile.java:286)
+	at com.sun.enterprise.deployment.archivist.ExtensionsArchivist.open(ExtensionsArchivist.java:155)
+	at com.sun.enterprise.deployment.archivist.PersistenceArchivist.readPersistenceDeploymentDescriptor(PersistenceArchivist.java:120)
+	at com.sun.enterprise.deployment.archivist.PersistenceArchivist.open(PersistenceArchivist.java:79)
+	at com.sun.enterprise.deployment.archivist.Archivist.readRestDeploymentDescriptors(Archivist.java:381)
+	at com.sun.enterprise.deployment.archivist.Archivist.readDeploymentDescriptors(Archivist.java:372)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:247)
+	at com.sun.enterprise.deployment.archivist.Archivist.open(Archivist.java:256)
+	at com.sun.enterprise.deployment.archivist.ApplicationArchivist.readModulesDescriptors(ApplicationArchivist.java:599)
+	at com.sun.enterprise.deployment.archivist.ApplicationArchivist.openWith(ApplicationArchivist.java:214)
+	at com.sun.enterprise.deployment.archivist.ApplicationFactory.openWith(ApplicationFactory.java:207)
+	at org.glassfish.javaee.core.deployment.DolProvider.processDOL(DolProvider.java:172)
+	... 20 more
+|#]
+
+[#|2023-08-21T14:22:34.114+0300|SEVERE|glassfish 6.2|jakarta.enterprise.system.core|_ThreadID=30;_ThreadName=RunLevelControllerThread-1692616949545;_TimeMillis=1692616954114;_LevelValue=1000;_MessageID=NCLS-CORE-00041;|Application deployment failed: Exception while deploying the app [Ear]|#]
+
+[#|2023-08-21T14:22:34.115+0300|INFO|glassfish 6.2|jakarta.enterprise.system.core|_ThreadID=1;_ThreadName=main;_TimeMillis=1692616954115;_LevelValue=800;_MessageID=NCLS-CORE-00017;|Eclipse GlassFish  6.2.5  (6.x-b66-g0159b68 2022-02-12T17:39:59+0000) startup time : Felix (6,091ms), startup services(4,576ms), total(10,667ms)|#]
+
+[#|2023-08-21T14:22:34.115+0300|SEVERE|glassfish 6.2|jakarta.enterprise.system.core|_ThreadID=1;_ThreadName=main;_TimeMillis=1692616954115;_LevelValue=1000;_MessageID=NCLS-CORE-00019;|Shutting down server due to startup exception
+java.lang.NoClassDefFoundError: org/glassfish/grizzly/npn/AlpnServerNegotiator
+	at org.glassfish.grizzly.config.GenericGrizzlyListener.configureHttp2Support(GenericGrizzlyListener.java:744)
+	at org.glassfish.grizzly.config.GenericGrizzlyListener.configureHttpProtocol(GenericGrizzlyListener.java:721)
+	at com.sun.enterprise.v3.services.impl.GlassfishNetworkListener.configureHttpProtocol(GlassfishNetworkListener.java:183)
+	at org.glassfish.grizzly.config.GenericGrizzlyListener.configureSubProtocol(GenericGrizzlyListener.java:415)
+	at org.glassfish.grizzly.config.GenericGrizzlyListener.configureProtocol(GenericGrizzlyListener.java:404)
+	at org.glassfish.grizzly.config.GenericGrizzlyListener.configure(GenericGrizzlyListener.java:301)
+	at com.sun.enterprise.v3.services.impl.GrizzlyProxy.initialize(GrizzlyProxy.java:85)
+	at com.sun.enterprise.v3.services.impl.GrizzlyService.createNetworkProxy(GrizzlyService.java:567)
+	at com.sun.enterprise.v3.services.impl.GrizzlyService.postConstruct(GrizzlyService.java:518)
+	at org.jvnet.hk2.internal.ClazzCreator.postConstructMe(ClazzCreator.java:303)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:351)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:466)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:281)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:65)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2103)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:67)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.oneJob(CurrentTaskFuture.java:1213)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.run(CurrentTaskFuture.java:1144)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$UpOneLevel.run(CurrentTaskFuture.java:762)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: org.glassfish.grizzly.npn.AlpnServerNegotiator
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.apache.felix.framework.ExtensionManager$ExtensionManagerWiring.getClassByDelegation(ExtensionManager.java:1212)
+	at org.apache.felix.framework.BundleWiringImpl.searchImports(BundleWiringImpl.java:1606)
+	at org.apache.felix.framework.BundleWiringImpl.findClassOrResourceByDelegation(BundleWiringImpl.java:1522)
+	at org.apache.felix.framework.BundleWiringImpl.access$300(BundleWiringImpl.java:79)
+	at org.apache.felix.framework.BundleWiringImpl$BundleClassLoader.loadClass(BundleWiringImpl.java:1970)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 23 more
+|#]
+
+[#|2023-08-21T14:22:34.453+0300|INFO|glassfish 6.2|jakarta.enterprise.system.core|_ThreadID=57;_ThreadName=Thread-20;_TimeMillis=1692616954453;_LevelValue=800;_MessageID=NCLS-CORE-00092;|Server shutdown initiated|#]
+
+[#|2023-08-21T14:22:34.454+0300|INFO|glassfish 6.2|jakarta.enterprise.bootstrap|_ThreadID=1;_ThreadName=main;_TimeMillis=1692616954454;_LevelValue=800;_MessageID=NCLS-BOOTSTRAP-00027;|Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@62b1bed6 as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@74c0eaaf.|#]
+
+[#|2023-08-21T14:22:34.565+0300|INFO|glassfish 6.2||_ThreadID=25;_ThreadName=Thread-8;_TimeMillis=1692616954565;_LevelValue=800;|ERROR: Bundle org.apache.felix.scr [295] Error starting file:/D:/TPD%20(sem%201)/glassfish6/glassfish/modules/autostart/org.apache.felix.scr.jar (org.osgi.framework.BundleException: Unable to resolve org.apache.felix.scr [295](R 295.0): missing requirement [org.apache.felix.scr [295](R 295.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.promise)(version>=1.0.0)(!(version>=2.0.0))) [caused by: Unable to resolve org.osgi.util.promise [297](R 297.0): missing requirement [org.osgi.util.promise [297](R 297.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.function)(version>=1.1.0)(!(version>=2.0.0)))] Unresolved requirements: [[org.apache.felix.scr [295](R 295.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.promise)(version>=1.0.0)(!(version>=2.0.0)))])|#]
+
+[#|2023-08-21T14:22:34.565+0300|SEVERE|glassfish 6.2||_ThreadID=25;_ThreadName=Thread-9;_TimeMillis=1692616954565;_LevelValue=1000;|org.osgi.framework.BundleException: Unable to resolve org.apache.felix.scr [295](R 295.0): missing requirement [org.apache.felix.scr [295](R 295.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.promise)(version>=1.0.0)(!(version>=2.0.0))) [caused by: Unable to resolve org.osgi.util.promise [297](R 297.0): missing requirement [org.osgi.util.promise [297](R 297.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.function)(version>=1.1.0)(!(version>=2.0.0)))] Unresolved requirements: [[org.apache.felix.scr [295](R 295.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.promise)(version>=1.0.0)(!(version>=2.0.0)))]
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4398)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2308)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:308)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+|#]
+
+[#|2023-08-21T14:22:34.566+0300|INFO|glassfish 6.2||_ThreadID=25;_ThreadName=Thread-8;_TimeMillis=1692616954566;_LevelValue=800;|ERROR: Bundle org.osgi.util.promise [297] Error starting file:/D:/TPD%20(sem%201)/glassfish6/glassfish/modules/autostart/org.osgi.util.promise.jar (org.osgi.framework.BundleException: Unable to resolve org.osgi.util.promise [297](R 297.0): missing requirement [org.osgi.util.promise [297](R 297.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.function)(version>=1.1.0)(!(version>=2.0.0))) Unresolved requirements: [[org.osgi.util.promise [297](R 297.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.function)(version>=1.1.0)(!(version>=2.0.0)))])|#]
+
+[#|2023-08-21T14:22:34.566+0300|SEVERE|glassfish 6.2||_ThreadID=25;_ThreadName=Thread-9;_TimeMillis=1692616954566;_LevelValue=1000;|org.osgi.framework.BundleException: Unable to resolve org.osgi.util.promise [297](R 297.0): missing requirement [org.osgi.util.promise [297](R 297.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.function)(version>=1.1.0)(!(version>=2.0.0))) Unresolved requirements: [[org.osgi.util.promise [297](R 297.0)] osgi.wiring.package; (&(osgi.wiring.package=org.osgi.util.function)(version>=1.1.0)(!(version>=2.0.0)))]
+	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4398)
+	at org.apache.felix.framework.Felix.startBundle(Felix.java:2308)
+	at org.apache.felix.framework.Felix.setActiveStartLevel(Felix.java:1566)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:308)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+|#]
+
+[#|2023-08-21T14:22:35.473+0300|INFO|glassfish 6.2|jakarta.enterprise.bootstrap|_ThreadID=57;_ThreadName=Thread-20;_TimeMillis=1692616955473;_LevelValue=800;_MessageID=NCLS-BOOTSTRAP-00028;|Unregistered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@62b1bed6 from service registry.|#]
+
+[#|2023-08-21T14:22:35.474+0300|INFO|glassfish 6.2||_ThreadID=57;_ThreadName=Thread-8;_TimeMillis=1692616955474;_LevelValue=800;|FileMonitoring shutdown|#]
+
